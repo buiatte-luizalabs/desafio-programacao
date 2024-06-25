@@ -1,0 +1,12 @@
+com/priscilarosa/desafio/application/core/usecases/SalesDataUseCase.class
+com/priscilarosa/desafio/adapters/output/repositories/jpa/SalesDataJpaRepository.class
+com/priscilarosa/desafio/application/ports/input/SalesDataUseCasePort.class
+com/priscilarosa/desafio/adapters/input/api/controllers/SalesDataController.class
+com/priscilarosa/desafio/application/core/domain/entities/SalesDataEntity.class
+com/priscilarosa/desafio/application/core/domain/entities/SalesDataEntity$SalesDataEntityBuilder.class
+com/priscilarosa/desafio/application/core/domain/dtos/SalesDataDTO.class
+com/priscilarosa/desafio/application/ports/output/SalesDataRepositoryPort.class
+com/priscilarosa/desafio/DesafioProgramacaoApplication.class
+com/priscilarosa/desafio/adapters/output/repositories/SalesDataRepository.class
+com/priscilarosa/desafio/application/core/domain/dtos/SalesDataCsvRepresentationDTO.class
+com/priscilarosa/desafio/application/core/domain/dtos/SalesDataCsvRepresentationDTO$SalesDataCsvRepresentationDTOBuilder.class

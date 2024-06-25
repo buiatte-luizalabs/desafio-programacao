@@ -1,0 +1,11 @@
+/Users/priscila.rosa/source/java/desafio-programacao/src/main/java/com/priscilarosa/desafio/DesafioProgramacaoApplication.java
+/Users/priscila.rosa/source/java/desafio-programacao/src/main/java/com/priscilarosa/desafio/adapters/input/api/controllers/IndexController.java
+/Users/priscila.rosa/source/java/desafio-programacao/src/main/java/com/priscilarosa/desafio/adapters/input/api/controllers/SalesDataController.java
+/Users/priscila.rosa/source/java/desafio-programacao/src/main/java/com/priscilarosa/desafio/adapters/output/repositories/SalesDataRepository.java
+/Users/priscila.rosa/source/java/desafio-programacao/src/main/java/com/priscilarosa/desafio/adapters/output/repositories/jpa/SalesDataJpaRepository.java
+/Users/priscila.rosa/source/java/desafio-programacao/src/main/java/com/priscilarosa/desafio/application/core/domain/dtos/SalesDataCsvRepresentationDTO.java
+/Users/priscila.rosa/source/java/desafio-programacao/src/main/java/com/priscilarosa/desafio/application/core/domain/dtos/SalesDataDTO.java
+/Users/priscila.rosa/source/java/desafio-programacao/src/main/java/com/priscilarosa/desafio/application/core/domain/entities/SalesDataEntity.java
+/Users/priscila.rosa/source/java/desafio-programacao/src/main/java/com/priscilarosa/desafio/application/core/usecases/SalesDataUseCase.java
+/Users/priscila.rosa/source/java/desafio-programacao/src/main/java/com/priscilarosa/desafio/application/ports/input/SalesDataUseCasePort.java
+/Users/priscila.rosa/source/java/desafio-programacao/src/main/java/com/priscilarosa/desafio/application/ports/output/SalesDataRepositoryPort.java

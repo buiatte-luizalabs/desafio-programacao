@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml" xmlns:form="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+
+    <title>Dados de vendas</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="/list">Listagem de vendas</a>
+                </li>
+
+            </ul>
+
+        </div>
+    </div>
+</nav>
+<div class="w3-row-padding w3-margin-bottom">
+
+    <div class="input-group mb-3">
+        <form:form method="POST" action="" enctype="multipart/form-data">
+            <table>
+                <tr>
+                    <td><form:label path="file"></form:label></td>
+            <td><input type="file" name="file" class="form-control" id="inputGroupFile02"/></td>
+            <td><input type="submit" value="Submit" class="input-group-text" for="inputGroupFile02"/></td>
+                </tr>
+            </table>
+        </form:form>
+    </div>
+</div>
+<table class="table">
+    <thead>
+    <tr>
+        <th scope="col">#</th>
+        <th scope="col">Nome do comprador</th>
+        <th scope="col">Descrição do item</th>
+        <th scope="col">Preço</th>
+        <th scope="col">Contagem</th>
+        <th scope="col">Endereço</th>
+        <th scope="col">Nome do Comerciante</th>
+        <th scope="col">#</th>
+
+    </tr>
+    </thead>
+    <tbody>
+    <tr data-th-each="salesData : ${salesDataEntities}">
+        <td></td>
+        <td data-th-text="${salesData.purchaserName}"></td>
+        <td data-th-text="${salesData.itemDescription}"></td>
+        <td data-th-text="${salesData.itemPrice}"></td>
+        <td data-th-text="${salesData.purchaseCount}"></td>
+        <td data-th-text="${salesData.merchantAddress}"></td>
+        <td data-th-text="${salesData.merchantName}"></td>
+        <td></td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
