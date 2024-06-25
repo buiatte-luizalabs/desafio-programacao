@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+
+  db:
+    image: postgres:latest
+    container_name: db-salesorder
+    environment:
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=admin
+      - POSTGRES_DB=salesorder
+    ports:
+      - "5434:5432"
+
+
+
